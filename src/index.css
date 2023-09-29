@@ -36,7 +36,8 @@ body > div {
 }
 
 .home{
-  background-color: aquamarine;
+  background-color: #800000;
+  color: white;
 }
 
 .red {
@@ -46,5 +47,20 @@ body > div {
 
 .blue {
   background-color: #275db3;
+  color: white;
+}
+
+.green {
+  background-color: #2E8B57;
+  color: white;
+}
+
+.purple {
+  background-color: #4B0082;
+  color: white;
+}
+
+.pink {
+  background-color: #FF69B4;
   color: white;
 }

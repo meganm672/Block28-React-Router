@@ -7,6 +7,9 @@ import { Routes, Route} from "react-router-dom";
 import Home from './Home';
 import Blue from './Blue';
 import Red from './Red';
+import Pink from "./Pink";
+import Purple from "./Purple";
+import Green from "./Green";
 
 export default function MainSection(){
     return(
@@ -15,6 +18,9 @@ export default function MainSection(){
               <Route path="/" element={<Home />} />
               <Route path="/blue" element={<Blue />}/>
               <Route path="/red" element={< Red/>} />
+              <Route path="/purple" element={<Purple />} />
+              <Route path="/green" element={<Green />} />
+              <Route path="/pink" element={<Pink />} />
             </Routes>
         </div>
     )
