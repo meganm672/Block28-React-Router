@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return(
         <div id="navbar">
-            <Link to="/">Home</Link>
-            <Link to="/blue">Blue</Link> 
-            <Link to="/red">Red</Link>
-            <Link to="/green">Green</Link>
-            <Link to="/purple">Purple</Link>
-            <Link to="/pink">Pink</Link>
+            <Link to="/" className="link">Home</Link>
+            <Link to="/blue" className="link">Blue</Link> 
+            <Link to="/red" className="link">Red</Link>
+            <Link to="/green" className="link">Green</Link>
+            <Link to="/purple" className="link">Purple</Link>
+            <Link to="/pink" className="link">Pink</Link>
         </div>
     )
 }

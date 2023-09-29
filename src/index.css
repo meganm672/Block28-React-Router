@@ -7,6 +7,7 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
+  background-color: #FFEBCD;
 }
 
 #container {
@@ -22,6 +23,16 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+}
+
+.link{
+  color:#9932CC;
+  font-size: 1.5em;
+}
+
+.link:hover{
+  color: magenta;
+  font-size: 2em;
 }
 
 #main-section {
@@ -41,7 +52,7 @@ body > div {
 }
 
 .red {
-  background-color: #b05f6d;
+  background-color: #B22222;
   color: white;
 }
 
