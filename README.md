@@ -1,8 +1,12 @@
-# React + Vite
+# React Router Colors Requirements
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application is deployed without errors<br/>
+<br/>
+The Application has a nav bar with at least three links, Red, Blue and Home<br/>
+<br/>
+The application view changes upon a click to each link. <br/>
+The browser does NOT refresh, the url changes, and a view with the correct color shows up in the browser.<br/>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployed Application
+
